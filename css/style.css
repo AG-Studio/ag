@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    outline: none;
+}
+html{
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: gray;
+}
+p{
+    text-align: left;
+}
+
+.section{
+    height: 100vh;
+}
+.wel_section{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 178, 92)), to(orange));
+    background-image: linear-gradient(rgb(255, 178, 92), orange);
+    color:  white;
+}
+.wel_content{
+    position: absolute; margin-left: 10%; margin-top: 20vh; font-size: 150%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-name: fadein; animation-name: fadein; 
+}
+.wel_logo{
+    text-align: center;
+    margin-top: 15vh;
+}
+.games_section{
+    background-color: #ebebeb;
+}
+
+div{
+    display: inline-block;
+}
+.container{
+    width: 90%;
+    height: 90%;
+    margin: 2.5% 5%;
+}
+
+#logo{
+    width: 30vw;
+    background-color: #ffa500;
+    border-radius: 150px;
+    border: solid #f4f4f4 2px;
+    -webkit-box-shadow: #f4f4f4 0px 0px 5px 1px;
+    box-shadow: #f4f4f4 0px 0px 5px 1px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#logo:hover{
+    width: 31vw;
+    -webkit-box-shadow: #f4f4f4 0px 0px 25px 2px;
+    box-shadow: #f4f4f4 0px 0px 25px 2px;
+}
+
+.GameBox{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    font-size: 75%;
+    width: 25vw;
+    height: 65vh;
+    padding: 25px;
+    -webkit-box-shadow: white 0px 0px 5px 0px;
+    box-shadow: white 0px 0px 5px 0px;
+    opacity: 0.6;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.GameBox:hover{
+    opacity: 1;
+    -webkit-box-shadow: white 0px 0px 15px 2px;
+    box-shadow: white 0px 0px 15px 2px;
+}
+.GameBox img{
+    width: 50%;
+}
+.selected_group{
+    -webkit-transform: translate(10vw);
+    transform: translate(10vw);
+}
+
+footer{
+    display: block;
+    background-color: #525252;
+    color: #f5f5f5;
+    font-size: 70%;
+    height: 50px;
+}
+footer label{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+footer a{
+    width: 30px;
+    height: 30px;
+    background-image: url(../pictures/facebook-logo.png);
+    background-size: 30px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 3px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+footer a:hover{
+    background-image: url(../pictures/facebook-logo-1.png);
+}
