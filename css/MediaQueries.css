@@ -10,6 +10,7 @@
     }
     .wel_content{
         display: block;
+        background-color: black;
         margin-top: 30vh;
     }
     .wel_logo{
