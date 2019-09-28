@@ -22,7 +22,7 @@
 
 @media only Screen and (max-width: 480px){
     html{
-        font-size: 2.5vw;
+        font-size: 7.5px;
     }
     .wel_content{
         display: block;
@@ -43,12 +43,26 @@
         width: 52vw;
     }
     .GameBox{
-        height: 40vh;
         padding: 10px;
-        margin-top: 20vh;
+        width: 30vw;
+    }
+    .GameBox img{
+        width: 75%;
+    }
+    .GameBox h2{
+        font-size: 150%;
+    }
+    .GameBox p{
+        font-size: 125%;
+    }
+    .GameBox a{
+        height: 15%;
     }
     .selected_group{
     -webkit-transform: translate(5vw);
     transform: translate(5vw);
+    }
+    footer label{
+        font-size: 135%;
     }
 }
