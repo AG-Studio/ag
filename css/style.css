@@ -6,7 +6,7 @@
     outline: none;
 }
 html{
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     background-color: gray;
@@ -24,7 +24,7 @@ p{
     color:  white;
 }
 .wel_content{
-    position: absolute; margin-left: 10%; margin-top: 20vh; font-size: 150%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-name: fadein; animation-name: fadein; 
+    position: absolute; margin-left: 10%; margin-top: 20vh; font-size: 140%; letter-spacing: 2px; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-name: fadein; animation-name: fadein; 
 }
 .wel_logo{
     text-align: center;
@@ -91,7 +91,7 @@ footer{
     display: block;
     background-color: #525252;
     color: #f5f5f5;
-    font-size: 70%;
+    font-size: 60%;
     height: 50px;
 }
 footer label{
