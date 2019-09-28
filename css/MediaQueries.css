@@ -10,12 +10,22 @@
     }
     .wel_content{
         display: block;
-        background-color: black;
-        margin-top: 30vh;
+        margin: 10% 0 0 15%;
+        font-size: 85%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
     }
     .wel_logo{
         display: block;
-        margin-top: 27.5vh;
+        margin: 10% 0 0 0;
+    }
+    #logo{
+        width: 42vw;
+    }
+    #logo:hover{
+        width: 45vw;
     }
     .selected_group{
     -webkit-transform: translate(7vw);
@@ -25,7 +35,7 @@
 
 @media only Screen and (max-width: 480px){
     html{
-        font-size: 7.5px;
+        font-size: 10px;
     }
     .wel_content{
         display: block;
