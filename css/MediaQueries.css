@@ -10,7 +10,8 @@
     }
     .wel_content{
         display: block;
-        margin: 10% 0 0 15%;
+        margin: 10% 25% 0 20%;
+        width: 50%;
         font-size: 85%;
         text-align: center;
     }
@@ -39,7 +40,8 @@
     }
     .wel_content{
         display: block;
-        margin: 10% 0 0 15%;
+        margin: 10% 25% 0 20%;
+        width: 50%;
         text-align: center;
     }
     p{
