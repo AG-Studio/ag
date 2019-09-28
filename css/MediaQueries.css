@@ -9,9 +9,11 @@
         font-size: 13px;
     }
     .wel_content{
+        display: block;
         margin-top: 30vh;
     }
     .wel_logo{
+        display: block;
         margin-top: 27.5vh;
     }
     .selected_group{
