@@ -36,7 +36,7 @@
 
 @media only Screen and (max-width: 480px){
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
     .wel_content{
         display: block;
