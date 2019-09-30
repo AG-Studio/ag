@@ -10,9 +10,9 @@
     }
     .wel_content{
         display: block;
-        margin: 10% 25% 0 20%;
-        width: 50%;
-        font-size: 85%;
+        margin: 10% 12.5% 0 8%;
+        width: 75%;
+        font-size: 125%;
         text-align: center;
     }
     p{
@@ -46,8 +46,8 @@
     }
     .wel_content{
         display: block;
-        margin: 10% 25% 0 20%;
-        width: 50%;
+        margin: 20% 12.5% 0 8%;
+        width: 75%;
         text-align: center;
     }
     p{
@@ -55,7 +55,7 @@
     }
     .wel_logo{
         display: block;
-        margin: 10% 0 0 0;
+        margin: 20% 0 0 0;
     }
     #logo{
         width: 50vw;
@@ -65,7 +65,7 @@
     }
     .GameBox{
         padding: 10px;
-        width: 35vw;
+        width: 32vw;
         height: 65vh;
         margin: 10vh 0;
     }
@@ -82,8 +82,8 @@
         height: 15%;
     }
     .selected_group{
-    -webkit-transform: translate(5vw);
-    transform: translate(5vw);
+    -webkit-transform: translate(2vw);
+    transform: translate(2vw);
     }
     footer label{
         font-size: 135%;
